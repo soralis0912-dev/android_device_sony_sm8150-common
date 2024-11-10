@@ -22,7 +22,7 @@ PRODUCT_COMPRESSED_APEX := false
 $(call inherit-product, vendor/sony/sm8150-common/sm8150-common-vendor.mk)
 
 # VNDK
-BOARD_SHIPPING_API_LEVEL := 30
+BOARD_SHIPPING_API_LEVEL := 28
 PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 
 # Setup dalvik vm configs
